@@ -1,0 +1,7 @@
+-Par l'implémentation du pattern strategy, les modules de haut niveau ne dépendent plus des modules de bas niveau,
+l'inversion des dépendances est respectée.
+-Avec l'implémentation de l'interface strategy, le principe de substitution de Liskov est respecté.
+-Le fait de remodeler la methode computeText de la class TemplateManager permet de s'assurer de l'unicité de responsabilité de 
+la classe.
+
+Les Tests unitaires sous PHPUnit permettent de s'assurer du bon fonctionnement d'un module.
